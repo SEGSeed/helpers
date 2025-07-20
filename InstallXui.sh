@@ -66,7 +66,7 @@ install_base() {
 install_base
 
 # Install x-ui v2.4.5
-XUI_VERSION="v2.4.5"
+XUI_VERSION="${XUI_VERSION:-'v2.4.5'}"
 DOWNLOAD_URL="https://github.com/MHSanaei/3x-ui/releases/download/${XUI_VERSION}/x-ui-linux-${ARCH}.tar.gz"
 
 cd /usr/local/
